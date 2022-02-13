@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS Land JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+  
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    button {
+      margin-bottom: .5rem;
+    }
+
+    .title {
+      text-align: center;
+      margin: 4px;
+    }
+
+  </style>
+  
+</head>
+
+  <h2 class="title">What can JavaScript do?</h2> <hr />
+
+  <p id="demo">JavaScript can change HTML Content</p>
+  
+  <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello World!'">Click Me</button>
+<hr /> <br />
+
+  <h2>JavaScript can change HTML attributes value.</h2>
+  
+  <button type="button" onclick="document.getElementById('bulbImg').src='bulbOn.jpg'">Switch On</button>
+  
+  <img src="bulbOff.jpg" id="bulbImg" alt="" width="200px" />
+  
+  <button type="button" onclick="document.getElementById('bulbImg').src='bulbOff.jpg'">Switch Off</button>
+  
+  <hr /> <br />
+  
+  <p id="demo1">JavaScript can change the styles of HTML Elements</p>
+  
+  <button onclick="document.getElementById('demo1').style.fontSize='45px'">Click Me</button>
+  
+  <p id="demo2"></p>
+  <hr /><br />
+  
+  <p id="demo3">JavaScript can hide and show HTML elements</p>
+  
+  <button onclick="document.getElementById('demo3').style.display='none'">Hide!</button>
+  
+  <button onclick="document.getElementById('demo3').style.display='block'">Show!</button>
+  <hr />
+  <button onclick="window.print()">Print.</button>
+
+  <script src="main.js"></script>
+<body>
+
+</body>
+
+</html>

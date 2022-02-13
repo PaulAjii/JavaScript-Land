@@ -1,0 +1,22 @@
+JavaScript can display data in different ways:
+  a. innerHTML - writing into the HTML element.
+  b. document.write() - writing into the HTML document/output. - should only be used for testing purposes.
+  c. window.alert() - writing into an alert box
+  d. console.log() - writing into the browser console.
+
+document.getElementById('id') is used to get access to the HTML element.
+'id' attribute defines the HTML element.
+
+Statements are instructions given to a computer to execute. JS statements include values, operators, expressions, keywords, comments...
+JS statements often start with a keyword used to identify the kind of action to be performed.
+
+JavaScript recognises two types of values: 
+  a. Fixed Values e.g Numbers, Strings...These are called "Literals".
+  b. Variable Values are also called "Variables". They are used to store data values. JS uses the "var", "let", and "const" keywords to declare a variable. The "=" sign (also "Assignment Operator") is used to assign a value to assign a value to a variable.
+
+JavaScript Operators
+JS uses "Arithmetic Operators" to compute values
+"+" for "Addition",
+"-" for "Subtraction",
+"*" for "Multiplication", and
+"/" for "Division".
